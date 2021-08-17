@@ -32,7 +32,7 @@ If the function's return type is void it should be modified to return the count 
 
 This function prints the Cartesian product of its input array with itself.
 
-```
+```c++
 // PARAM: arr is array to print the Cartesian product of, n is size of arr
 void cartesianProduct(int arr[], int n)
 {
@@ -57,7 +57,7 @@ void cartesianProduct(int arr[], int n)
 
 This function prints a triangle of numbers (which doesn't look very pretty if the numbers have more than one digit).
 
-```
+```c++
 void triangle(int x)
 {
        int i = 0;
@@ -91,7 +91,7 @@ void triangle(int x)
 
 This function returns a vector which contains the contents of its input array with any duplicates removed.
 
-```
+```c++
 // PARAM: arr is array from which duplicates are to be removed, n is size of arr
 vector<int> removeDuplicates(int arr[], int n)
 {
@@ -128,7 +128,7 @@ vector<int> removeDuplicates(int arr[], int n)
 
 This function returns an array in dynamic memory that represents the matrix that is the result of multiplying the matrix (array) parameter by itself.
 
-```
+```c++
 // PRE: m represents a square matrix of size rows * rows
 // PARAM: rows represents the number of both rows and columns
 // POST: Returns a pointer to an array (matrix) of the same size as m
@@ -159,7 +159,7 @@ int* matrixSelfMultiply(int* m, int rows)
        return result;
 }
 ```
-```
+```c++
 // Returns the index of a 1d array representing a matrix
 // given row (r) and column (c) values
 int rcIndex(int r, int c, int columns)
@@ -176,7 +176,7 @@ int rcIndex(int r, int c, int columns)
 
 This function is a recursive version of selection sort.
 
-```
+```c++
 // PARAM: arr is array to be sorted, n is size of array, i should initially = 0
 void ssort(int arr[], int n, int i)
 {
@@ -211,7 +211,7 @@ void ssort(int arr[], int n, int i)
 
 This function prints a pattern.
 
-```
+```c++
 // PRE: n is a power of 2 greater than zero.
 // PRE: Initial call should be to i = 0
 // e.g. pattern(8, 0)
